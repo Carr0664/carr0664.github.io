@@ -41,7 +41,7 @@ a {
 
 
 body {
-    margin: 0px;
+    margin: 0;
     background-color: #f7f7ff;
 }
 /* Logo, "D" */
@@ -53,10 +53,10 @@ body {
     margin-right: 5rem;
 }
 
-.scooter {
+/* .scooter {
     padding-left: 10%;
     padding-right: 10%;;
-}
+} */
 /* Form */
 /* Apply Now */
 form h1 {
@@ -235,7 +235,7 @@ footer img {
 }
 /* Desktop */
 @media (min-width: 1400px) {
-    h1 {
+     h1 {
         padding-right: 35%;
     }
 
@@ -263,8 +263,30 @@ footer img {
     }
 
     footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         width: 100%;
         bottom: 0;
         height: 15%;
+    } 
+
+    form {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 14%;
+        
+    }
+
+    .calculate {
+        padding-bottom: 2%;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .icons {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
     }
 }
