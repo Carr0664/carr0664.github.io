@@ -1,0 +1,215 @@
+/* font-family: 'Krona One', sans-serif;
+font-family: 'Pangolin', cursive;
+font-family: 'Roboto', sans-serif; */
+
+/* Font Start */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Pangolin&family=Roboto&display=swap');
+/* Font End */
+
+
+
+
+/* Formatting Start */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Pangolin', cursive;
+    font-size: 36px;
+}
+ 
+h2 {
+    font-family: 'Pangolin', cursive;
+    font-size: 28px;  
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+/* Background Start */
+body {
+    background-image: url(img/bread.png);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    background-color: #464646;
+}
+/* Background End */
+/* Formatting End */
+
+/* Navigation Start */
+header {
+    width: 100%;
+    margin-bottom: 2%;
+    background-color: rgba(255, 251, 251, 0.3);
+}
+
+nav {
+    float: right;
+}
+
+#tbb {
+    display: inline-block;
+    margin: 2%;
+    padding-left: 3%;
+}
+
+nav ul {
+    padding-top: 6%;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul li a:hover {
+    color: #FFBA08;
+    transition:all 0.3s ease-in-out;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+/* Navigation End */
+
+/* Main Content Start */
+.main {
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.main img {
+    padding-left: 20%;
+    margin: auto;
+}
+
+.main h1, h2 {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px black;
+    padding: 2%;
+}
+
+.main p {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+/* Main Content End */
+
+/* Footer Start */
+footer {
+    position: fixed;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    vertical-align: bottom;
+    bottom: 0;
+    background-color: white;
+}
+
+.icons li{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 1%;
+    padding-top: 2%;
+}
+
+footer p {
+    font-family: 'Krona One', sans-serif;
+    font-size: 12px;
+    padding-bottom: 1%;
+}
+/* Footer Ends */
+
+/* Contact Page Start */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Roboto', sans-serif;
+}
+  
+input[type=submit] {
+    background-color: #145C9E;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+  
+input[type=submit]:hover {
+    background-color: #0B4F6C;
+}
+  
+.container {
+    border-radius: 5px;
+    background-color: #EDCB96;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 1400px) {
+    .main img {
+        padding-left: 40%;
+        margin: auto;
+    }
+    
+    nav ul li {
+        padding-right: 5%;
+        width: 100%;
+    }
+
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        font-family: 'Roboto', sans-serif;
+    }
+      
+    input[type=submit] {
+        background-color: #145C9E;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-family: 'Roboto', sans-serif;
+    }
+      
+    input[type=submit]:hover {
+        background-color: #0B4F6C;
+    }
+}
