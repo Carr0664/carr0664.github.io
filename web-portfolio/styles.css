@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Rubik:wght@700&display=swap');
+/* 
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif; 
+*/
+
+/* Basic Formatting - Start */
+body h1{
+    font-family: 'Rubik', sans-serif;   
+}
+
+body h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+body p {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header - Start */
+header {
+    background-color: #70a2c8;
+    width: 100%;
+}
+/* Basic Formatting - End */
+header img {
+    width: 150px;
+    height: 150px;
+    padding: 2%;
+}
+
+header h1 {
+    font-size: 56px;
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+}
+
+header p {
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 25%;
+}
+/* Header - End */
+
+/* Content - Start */
+.sectionBG {
+    background-color: #F5AE2B;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.sectionBG h1 {
+    font-size: 56px;
+    text-align: center;
+}
+
+.portfolio h2 {
+    font-size: 41px;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-weight: bold;
+    background-color: #F16622;
+    color: white;
+}
+
+.portfolio p {
+    font-size: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+    padding-top: 15%;
+}
+
+.GraphicImg img{
+    width: 225px;
+    width: 225px;
+    margin: auto;
+    text-align: center;
+    padding-left: 26%;
+    padding-right: 26%;
+    padding-bottom: 15%;
+}
+
+.dgkImg img {
+    width: 290px;
+    height: 476px;
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-top: 10%;
+}
+
+.tbbImg img {
+    width: 324px;
+    height: 162px;
+    padding-right: 15%;
+    padding-left: 16%;
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+
+.photos img {
+    width: 350px;
+    height: 200px;
+    padding-left: 11%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 15%;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4E1412;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #97514f;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+
+.contactinfo p {
+    font-size: 18px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 5%;
+    color: white;
+  }
+
+footer {
+    background-color: #70a2c8;
+}
+
+footer a {
+   color: purple; 
+   text-decoration: none;
+}
+
+
+@media (min-width: 650px) {
+    
+    header p {
+        font-size: 24px;
+        text-align: center;
+        color: white;
+        margin-top: 15%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 15%;
+    }
+    
+    .sectionBG {
+        background-color: #F5AE2B;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .portfolio h2 {
+        font-size: 41px;
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-weight: bold;
+        background-color: #F16622;
+        color: white;
+    }
+
+    .portfolio p {
+        font-size: 20px;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-bottom: 5%;
+        padding-top: 10%;
+    }
+
+    .GraphicImg {
+        display: flex;
+    }
+     
+    .GraphicImg img {
+        flex-wrap: wrap;
+        width: 225px;
+        width: 225px;
+        margin: auto;
+        text-align: center;
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-bottom: 10%;
+    }
+
+    .dgkImg img {
+        width: 390px;
+        height: 576px;
+        padding-right: 26%;
+        padding-left: 26%;
+        padding-top: 5%;
+    }
+
+    .tbbImg img {
+        width: 624px;
+        height: 362px;
+        padding-right: 15%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    
+    .photos img {
+        width: 650px;
+        height: 400px;
+        padding-left: 11%;
+        padding-right: 5%;
+        padding-top: 2%;
+        padding-bottom: 5%;
+    }
+
+    .contactinfo p {
+        font-size: 18px;
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-top: 5%;
+        padding-bottom: 2%;
+        color: white;
+      }
+}
+
+@media (min-width: 900px) {
+    header {
+        background-color: #70a2c8;
+        width: 100%;
+        position: relative;
+        margin: 0;
+        height: auto;
+        border: none;
+    }
+
+    header img {
+        width: 150px;
+        height: 150px;
+        padding: 2%;
+    }
+
+    header img {
+        width: 150px;
+        height: 150px;
+        padding: 2%;
+    }
+    
+    header h1 {
+        font-size: 56px;
+        text-align: center;
+        padding-top: 0;
+        color: white;
+    }
+    
+    header p {
+        font-size: 24px;
+        text-align: center;
+        color: white;
+        margin-top: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-bottom: 0%;
+    }
+
+    .sectionBG {
+        background-color: #F5AE2B;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    
+    .sectionBG h1 {
+        font-size: 56px;
+        text-align: center;
+    }
+    
+    .portfolio h2 {
+        font-size: 41px;
+        text-align: center;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        font-weight: bold;
+        background-color: #F16622;
+        color: white;
+    }
+    
+    .portfolio p {
+        font-size: 20px;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-bottom: 5%;
+        padding-top: 5%;
+    }
+
+    .GraphicImg img{
+        width: 225px;
+        width: 225px;
+        margin: auto;
+        text-align: center;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 5%;
+    }
+
+    .webdesign {
+        display: flex;
+        justify-content: center;
+        padding-right: 15%;
+        padding-left: 15%;
+    }
+
+    .dgkImg img {
+        width: 390px;
+        height: 676px;
+        padding-right: 20%;
+        padding-left: 15%;
+    }
+    
+    .tbbImg img {
+        width: 524px;
+        height: 262px;
+        padding-right: 20%;
+        padding-left: 15%;
+    }
+
+    .photos {
+        display: flex;
+    }
+
+    .photos img {
+        width: 450px;
+        height: 300px;
+        padding-left: 11%;
+        padding-right: 5%;
+        padding-top: 1%;
+        padding-bottom: 5%;
+    }
+
+    .contactinfo p {
+        font-size: 18px;
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-top: 2%;
+        padding-bottom: 0%;
+        color: white;
+      }
+}
+
+
