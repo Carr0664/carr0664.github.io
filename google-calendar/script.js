@@ -13,7 +13,3 @@ let intViewportWidth = window.innerWidth;
 setInterval(function () {
     window.location.reload();
 }, 300000);
-
-
-console.log(intViewportHeight)
-console.log(intViewportWidth)
