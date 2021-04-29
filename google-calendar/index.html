@@ -9,11 +9,17 @@
 </head>
 
 <body>
-    <div id='container'>
-        <div id="plemx-root"></div>
-        <iframe id='iframe'
-            src="https://calendar.google.com/calendar/embed?height=1080&amp;wkst=1&amp;bgcolor=%23F09300&amp;ctz=America%2FToronto&amp;src=Y2Fyci5kYW1pZW4yMDAwQGdtYWlsLmNvbQ&amp;src=ODRoa2ZtaWxqbDlpbXVkZms2N2kwaHA3cWNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZHVwbGVzc2lzLmFzaGxleTk3QGdtYWlsLmNvbQ&amp;color=%23EF6C00&amp;color=%2300c086&amp;color=%2333B679&amp;color=%239E69AF&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showTz=0&amp;showTitle=0"
-            style="border:solid 1px #777" frameborder="0" scrolling="no"></iframe>
+    <div class='container'>
+        <div class='weather-container'>
+            <iframe id='weather' title="Environment Canada Weather" width="287px" height="191px"
+                src="https://weather.gc.ca/wxlink/wxlink.html?cityCode=on-52&amp;lang=e" allowtransparency="true"
+                frameborder="0"></iframe>
+        </div>
+        <div id='calendar-container'>
+            <iframe
+                src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%2353dfbc&amp;ctz=America%2FToronto&amp;src=Y2Fyci5kYW1pZW4yMDAwQGdtYWlsLmNvbQ&amp;src=NWo1aDdtdjZzc2hyaG85dTA0bnRmbGJ2dThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ODRoa2ZtaWxqbDlpbXVkZms2N2kwaHA3cWNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZHVwbGVzc2lzLmFzaGxleTk3QGdtYWlsLmNvbQ&amp;color=%23EF6C00&amp;color=%23D50000&amp;color=%230B8043&amp;color=%23F6BF26&amp;color=%23B39DDB&amp;showTitle=0&amp;showNav=0&amp;showDate=1&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0"
+                style="border-width:0" frameborder="0" scrolling="no"></iframe>
+        </div>
     </div>
     <script src='script.js'></script>
 </body>
